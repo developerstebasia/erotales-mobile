@@ -1,0 +1,16 @@
+export default states => ({
+  registerData: states.defaultState.registerData,
+  userProfile: states.defaultState.userProfile,
+  userStory: states.defaultState.userStory,
+  backgroundColor: states.defaultState.backgroundColor,
+  fontFamily: states.defaultState.fontFamily,
+  fontSize: states.defaultState.fontSize,
+  colorTheme: states.defaultState.colorTheme,
+  stepsTutorial: states.defaultState.stepsTutorial,
+  readStory: states.defaultState.readStory,
+  listenStory:  states.defaultState.listenStory,
+  nextStory: states.defaultState.nextStory,
+  levelingUser: states.defaultState.levelingUser,
+  colorText: states.defaultState.colorText,
+  page: states.defaultState.page,
+});
